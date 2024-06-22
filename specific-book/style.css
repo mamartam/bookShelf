@@ -1,14 +1,21 @@
-*{
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
 /* Styles for header */
-header{
+header {
     margin-top: 20px;
     margin-bottom: 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
-.header-filling{
+
+.header-filling {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,48 +23,79 @@ header{
     padding-right: 75px;
     align-items: center;
 }
-.header-user-information{
+
+.siteName-creator p {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.header-user-information {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 
 }
-.header-user-information div{
+
+.header-user-information div {
     padding-left: 5px;
     padding-right: 5px;
 
 }
-.sign-out{
+
+.sign-out {
     display: flex;
     align-items: center;
+    /* width: 100px;
+    height: 50px; */
+    
 }
-.user-avatar-and-name{
+.sign-out button{
+    font-size: 15px;
+    padding: 7px;
+
+}
+
+.user-avatar-and-name {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.user-avatarr{
+
+.user-avatarr {
     width: 50px;
     height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
     border-radius: 50%;
     border: 1px solid black;
 
 }
-.img{
+
+.img {
     width: 40px;
     height: 40px;
 }
-.cover{
+
+.cover {
     width: 200px;
     height: 300px;
 }
+
 /* Styles for section about book */
-.section-main{
+.section-main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 20px;
 }
-.information-about-book{
+
+.information-about-book {
+    padding: 20px;
     border: 1px dotted black;
 }
