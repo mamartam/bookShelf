@@ -27,3 +27,32 @@ header {
     font-weight: bold;
 
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+}
+.form-for-signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label-username{
+    font-size: 20px;
+}
+.input-username{
+    padding: 10px;
+    border-radius: 10px;
+}
+.bitton-sign-in{
+    font-size: 17px;
+    padding: 10px;
+
+}
