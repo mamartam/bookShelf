@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styles for header */
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+.header-filling {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+}
+
+.siteName-creator p {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+
+}
