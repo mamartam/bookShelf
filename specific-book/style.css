@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Styles for header */
 header{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .header-filling{
     display: flex;
@@ -26,8 +28,6 @@ header{
     padding-right: 5px;
 
 }
-
-
 .sign-out{
     display: flex;
     align-items: center;
@@ -44,12 +44,20 @@ header{
     border: 1px solid black;
 
 }
-
 .img{
     width: 40px;
     height: 40px;
 }
 .cover{
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
+}
+/* Styles for section about book */
+.section-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.information-about-book{
+    border: 1px dotted black;
 }
