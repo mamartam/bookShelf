@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Specific book</title>
 </head>
+
 <body>
     <header>
         <hr>
-        <div>
-            <p>Book Store / mamartam</p>
+        <div class="header-filling">
+            <div>
+                <p>Book Store / mamartam</p>
 
-        </div>
-        <div>
-            <div><img class="img" src="img/cart.svg" alt="cart"></div>
-            <div><button type="button">sign-out</button></div>
-            <div><p>TestUser</p></div>
+            </div>
+            <div class="header-user-information">
+                <div><img class="img" src="img/cart.svg" alt="cart"></div>
+                <div class="sign-out"><button type="button">sign-out</button></div>
+                <div class="user-avatar-and-name">
+                    <div class="user-avatarr"></div>
+                    <p>TestUser</p>
+                </div>
+            </div>
         </div>
 
         <hr>
@@ -30,23 +37,26 @@
             <p><strong>Book author:</strong> Marijn Haverbeke</p>
             <p><strong>Book level:</strong> Beginner</p>
             <p><strong>Book tags:</strong> core</p>
-            <p>Price, $52.72</p>
+
         </div>
         <div>
+            <p>Price, $52.72</p>
             <label for="count">Count</label>
             <input type="number" id="count"><br>
             <p>Total price - </p>
+            <div>
+                <button type="button">Add to card</button>
+            </div>
         </div>
+
         <div>
-            <button type="button">Add to card</button>
-        </div>
-        <div>
-            <p><strong>Description:</strong>A book providing an introduction on 
+            <p><strong>Description:</strong>A book providing an introduction on
                 JavaScript Languague and programming in general.
             </p>
         </div>
     </section>
 
-    
+
 </body>
+
 </html>

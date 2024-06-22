@@ -3,9 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-.img{
+header{
+    margin-top: 20px;
+}
+.header-filling{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+}
+.header-user-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.header-user-information div{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+.sign-out{
+    display: flex;
+    align-items: center;
+}
+.user-avatar-and-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-avatarr{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.img{
+    width: 40px;
+    height: 40px;
 }
 .cover{
     width: 150px;
